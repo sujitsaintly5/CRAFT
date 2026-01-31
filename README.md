@@ -51,7 +51,7 @@ The author is not responsible for misuse.
  - ✔ Practical
  - ✔ Realistic
 
-##🏗 Architecture Overview
+## 🏗 Architecture Overview
 
 ```
 Target Domain
