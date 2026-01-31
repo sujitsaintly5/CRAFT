@@ -150,7 +150,7 @@ source venv/bin/activate
 ## ▶️ Usage
 ### Basic Recon
 ```
-python recon.py example.com
+python3 recon.py -d example.com
 ```
 ReconX will:
  1. Discover subdomains
@@ -162,12 +162,14 @@ ReconX will:
 
 ## 📊 Output Explained
 ``` output/report.json ```
+
 Machine-readable output for:
  1. Further automation
  2. Integration with other tools
  3. Data analysis
 
 ``` output/report.md ```
+
 Human-readable report optimized for:
  1. Manual testing
  2. Bug bounty workflows
