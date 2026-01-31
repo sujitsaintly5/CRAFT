@@ -50,3 +50,114 @@ The author is not responsible for misuse.
  - ✔ Ethical
  - ✔ Practical
  - ✔ Realistic
+
+##🏗 Architecture Overview
+
+```
+Target Domain
+     ↓
+Passive Asset Discovery
+     ↓
+Live Host Validation
+     ↓
+Technology Fingerprinting
+     ↓
+Endpoint Intelligence
+     ↓
+Vulnerability Signal Mapping
+     ↓
+Noise Reduction
+     ↓
+Risk Scoring
+     ↓
+Actionable Recon Report
+```
+### ReconX is a decision engine, not just a scanner.
+
+## 📁 Project Structure
+
+```
+ReconX/
+├── recon.py                # Main execution engine
+│
+├── core/
+│   ├── config.py           # Global configuration
+│   ├── executor.py         # Concurrent execution engine
+│   ├── normalizer.py       # Data cleanup & normalization
+│   ├── reducer.py          # False-positive reduction
+│   ├── scorer.py           # Risk scoring logic
+│   └── reporter.py         # Report generation
+│
+├── modules/
+│   ├── passive.py          # Passive subdomain discovery
+│   ├── live.py             # Live host validation
+│   ├── fingerprint.py      # Technology detection
+│   ├── endpoints.py        # Endpoint intelligence
+│   └── vulnmap.py          # Vulnerability signal mapping
+│
+└── output/
+    ├── report.json         # Machine-readable report
+    └── report.md           # Human-readable report
+```
+
+## 🔧 Dependencies
+
+Tool           Purpose
+```
+subfinder      Passive subdomain enumration
+amass          Passive asset discovery
+httpx          HTTP probing endpoint descovery
+gau            Historical endpoint descovery
+nuclei         Vulnerability signal mapping
+```
+### Note - ReconX does not replace these tools - It coordinates and contextualizes them.
+
+## ⚙️ Installation
+
+### 1️⃣ Clone Repository
+
+```
+git clone https://github.com/yourusername/reconx.git
+cd reconx
+```
+### 2️⃣ Install System Dependencies
+
+```
+sudo apt update
+sudo apt install -y subfinder amass httpx nuclei golang
+```
+Install gau:
+```
+go install github.com/lc/gau/v2/cmd/gau@latest
+echo 'export PATH=$PATH:$HOME/go/bin' >> ~/.bashrc
+source ~/.bashrc
+```
+Verify:
+```
+subfinder -h
+amass -h
+httpx -h
+gau -h
+nuclei -version
+```
+### 3️⃣ Python Environment (Recommended)
+
+```
+python3 -m venv venv
+source venv/bin/activate
+```
+
+## ▶️ Usage
+### Basic Recon
+```
+python recon.py example.com
+```
+ReconX will:
+ 1. Discover subdomains
+ 2. Validate live hosts
+ 3. Extract technologies
+ 4. Identify interesting endpoints
+ 5. Map vulnerability signals
+ 6. Generate prioritized reports
+
+
