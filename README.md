@@ -190,3 +190,44 @@ Each host includes:
    - API logic
 4. Ignore LOW risk noise
 5. Write high-quality reports
+ReconX saves hours of wasted testing
+
+## 🧮 Risk Scoring (High-Level)
+Risk is calculated using:
+- Admin or sensitive subdomains
+- Presence of high-value endpoints
+- Vulnerability signals
+- Technology-specific risk
+- Noise penalties(CDN, static hosts)
+Scores are heuristic-based, not CVSS-designed to reflect real attacker behavior.
+
+## 🛡 Safety & Design Choices
+
+- No aut-exploitation
+- No destructive actions
+- Graceful degradation if tools are missing
+- Clear failure visibility
+- Conservative defaults
+
+ReconX is safe by design
+
+## 🧪 Tested Environment
+- Kali Linux
+- Debian-based pentesting environments
+- Python3.10+
+
+## 🚀 Roadmap (Optional Enhancements)
+- Dependency health checks
+- Configuration scoring profiles
+- Burp integration
+- HTML reporting
+- Multi-target batch mode
+
+## 👤 Author
+Build as a hands-on offensive security project to demonstrate:
+- Recon automation
+- Attack surface analysis
+- Engineering discipline
+- Pentesting mindset
+
+----Sujit Saintly (Sujit Kumar) ------
