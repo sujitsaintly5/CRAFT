@@ -11,27 +11,27 @@ This tool is intended ONLY for authorized security testing, educational labs, an
 The author is not responsible for misuse.
 
 ## 🎯 Why ReconX Exists
-Most recon tools answer:
+### Most recon tools answer:
 ```
 “What assets exist?”
 ```
-ReconX answers:
+### ReconX answers:
 ```
 “Which assets matter the most to attack?”
 ```
 
-In real-world offensive security:
+###In real-world offensive security:
 
-Time is limited
+ 1. Time is limited
 
-Noise is high
+ 2. Noise is high
 
-Blind scanning wastes effort
+ 3. Blind scanning wastes effort
 
-ReconX reduces noise by:
+###ReconX reduces noise by:
 
-Correlating recon data
+ 1. Correlating recon data
 
-Penalizing low-signal hosts
+ 2. Penalizing low-signal hosts
 
-Prioritizing high-risk attack surfaces
+ 3. Prioritizing high-risk attack surfaces
