@@ -20,7 +20,7 @@ The author is not responsible for misuse.
 “Which assets matter the most to attack?”
 ```
 
-###In real-world offensive security:
+### In real-world offensive security:
 
  1. Time is limited
 
@@ -28,7 +28,7 @@ The author is not responsible for misuse.
 
  3. Blind scanning wastes effort
 
-###ReconX reduces noise by:
+### ReconX reduces noise by:
 
  1. Correlating recon data
 
