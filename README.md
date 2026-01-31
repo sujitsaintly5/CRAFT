@@ -184,9 +184,9 @@ Each host includes:
 1. Run recon on target scope
 2. Sort by HIGH risk
 3. Manually test:
- - Authentication flows
- - IDORs
- - File uploads
- - API logic
+  - Authentication flows
+  - IDORs
+  - File uploads
+  - API logic
 4. Ignore LOW risk noise
 5. Write high-quality reports
