@@ -43,10 +43,10 @@ The author is not responsible for misuse.
  6. Prioritize targets using risk heuristics
  7. Hand off results to manual testing
 
-- ❌ No auto-exploitation
-- ❌ No brute forcing
-- ❌ No weaponized payloads
+ - ❌ No auto-exploitation
+ - ❌ No brute forcing
+ - ❌ No weaponized payloads
 
-- ✔ Ethical
-- ✔ Practical
-- ✔ Realistic
+ - ✔ Ethical
+ - ✔ Practical
+ - ✔ Realistic
