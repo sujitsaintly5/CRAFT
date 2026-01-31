@@ -102,7 +102,7 @@ ReconX/
 
 ## 🔧 Dependencies
 
-Tool           Purpose
+Tool & Purpose
 ```
 subfinder      Passive subdomain enumration
 amass          Passive asset discovery
@@ -160,4 +160,33 @@ ReconX will:
  5. Map vulnerability signals
  6. Generate prioritized reports
 
+## 📊 Output Explained
+``` output/report.json ```
+Machine-readable output for:
+ 1. Further automation
+ 2. Integration with other tools
+ 3. Data analysis
 
+``` output/report.md ```
+Human-readable report optimized for:
+ 1. Manual testing
+ 2. Bug bounty workflows
+ 3. Pentest planning
+
+Each host includes:
+ 1. Risk level (HIGH/MEDIUM/LOW)
+ 2. Risk score
+ 3. Technology stack
+ 4. Integrating endpoints
+ 5. Vulnerability signals
+
+## 🔥 How Bug Hunters Use ReconX
+1. Run recon on target scope
+2. Sort by HIGH risk
+3. Manually test:
+ - Authentication flows
+ - IDORs
+ - File uploads
+ - API logic
+4. Ignore LOW risk noise
+5. Write high-quality reports
