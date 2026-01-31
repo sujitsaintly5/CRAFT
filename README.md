@@ -1,6 +1,6 @@
 # CRAFT
 
-### Custom Reconnaissance Automation Framework for Offensive Security
+### Custom Reconnaissance Automation Framework Tool for Offensive Security
 
 ReconX is a modular, decision-driven reconnaissance automation framework designed for offensive security, penetration testing, and bug bounty reconnaissance.
 
