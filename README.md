@@ -23,40 +23,30 @@ The author is not responsible for misuse.
 ### In real-world offensive security:
 
  1. Time is limited
-
  2. Noise is high
-
  3. Blind scanning wastes effort
 
 ### ReconX reduces noise by:
 
  1. Correlating recon data
-
  2. Penalizing low-signal hosts
-
  3. Prioritizing high-risk attack surfaces
 
 ## 🧠 Core Philosophy
 ### ReconX follows real attacker methodology:
 
  1. Discover attack surface
-
  2. Validate what is actually reachable
-
  3. Understand technology context
-
  4. Identify high-value endpoints
-
  5. Map known vulnerability signals
-
  6. Prioritize targets using risk heuristics
-
  7. Hand off results to manual testing
 
-❌ No auto-exploitation
-❌ No brute forcing
-❌ No weaponized payloads
+- ❌ No auto-exploitation
+- ❌ No brute forcing
+- ❌ No weaponized payloads
 
-✔ Ethical
-✔ Practical
-✔ Realistic
+- ✔ Ethical
+- ✔ Practical
+- ✔ Realistic
