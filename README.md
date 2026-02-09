@@ -2,20 +2,20 @@
 
 ### Custom Reconnaissance Automation Framework Tool for Offensive Security
 
-ReconX is a modular, decision-driven reconnaissance automation framework designed for offensive security, penetration testing, and bug bounty reconnaissance.
+CRAFT is a modular, decision-driven reconnaissance automation framework designed for offensive security, penetration testing, and bug bounty reconnaissance.
 
-Unlike traditional recon scripts that simply aggregate tool output, ReconX focuses on attack surface prioritization — helping security testers decide where to spend their limited manual testing time.
+Unlike traditional recon scripts that simply aggregate tool output, CRAFT focuses on attack surface prioritization — helping security testers decide where to spend their limited manual testing time.
 
 ## ⚠️ Disclaimer
 This tool is intended ONLY for authorized security testing, educational labs, and bug bounty programs where you have explicit permission.
 The author is not responsible for misuse.
 
-## 🎯 Why ReconX Exists
+## 🎯 Why CRAFT Exists
 ### Most recon tools answer:
-```
+```CRAFT
 “What assets exist?”
 ```
-### ReconX answers:
+### CRAFT answers:
 ```
 “Which assets matter the most to attack?”
 ```
@@ -26,14 +26,14 @@ The author is not responsible for misuse.
  2. Noise is high
  3. Blind scanning wastes effort
 
-### ReconX reduces noise by:
+### CRAFT reduces noise by:
 
  1. Correlating recon data
  2. Penalizing low-signal hosts
  3. Prioritizing high-risk attack surfaces
 
 ## 🧠 Core Philosophy
-### ReconX follows real attacker methodology:
+### CRAFT follows real attacker methodology:
 
  1. Discover attack surface
  2. Validate what is actually reachable
@@ -72,12 +72,12 @@ Risk Scoring
      ↓
 Actionable Recon Report
 ```
-### ReconX is a decision engine, not just a scanner.
+### CRAFT is a decision engine, not just a scanner.
 
 ## 📁 Project Structure
 
 ```
-ReconX/
+CRAFT/
 ├── recon.py                # Main execution engine
 │
 ├── core/
@@ -110,15 +110,15 @@ httpx          HTTP probing endpoint descovery
 gau            Historical endpoint descovery
 nuclei         Vulnerability signal mapping
 ```
-### Note - ReconX does not replace these tools - It coordinates and contextualizes them.
+### Note - CRAFT does not replace these tools - It coordinates and contextualizes them.
 
 ## ⚙️ Installation
 
 ### 1️⃣ Clone Repository
 
 ```
-git clone https://github.com/yourusername/reconx.git
-cd reconx
+git clone https://github.com/yourusername/CRAFT.git
+cd CRAFT
 ```
 ### 2️⃣ Install System Dependencies
 
@@ -152,7 +152,7 @@ source venv/bin/activate
 ```
 python3 recon.py -d example.com
 ```
-ReconX will:
+CRAFT will:
  1. Discover subdomains
  2. Validate live hosts
  3. Extract technologies
@@ -182,7 +182,7 @@ Each host includes:
  4. Integrating endpoints
  5. Vulnerability signals
 
-## 🔥 How Bug Hunters Use ReconX
+## 🔥 How Bug Hunters Use CRAFT
 1. Run recon on target scope
 2. Sort by HIGH risk
 3. Manually test:
@@ -192,7 +192,7 @@ Each host includes:
    - API logic
 4. Ignore LOW risk noise
 5. Write high-quality reports
-ReconX saves hours of wasted testing
+CRAFT saves hours of wasted testing
 
 ## 🧮 Risk Scoring (High-Level)
 Risk is calculated using:
@@ -211,7 +211,7 @@ Scores are heuristic-based, not CVSS-designed to reflect real attacker behavior.
 - Clear failure visibility
 - Conservative defaults
 
-ReconX is safe by design
+CRAFT is safe by design
 
 ## 🧪 Tested Environment
 - Kali Linux
